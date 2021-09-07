@@ -12,7 +12,7 @@ namespace PersonalityTest
             //kui kasutaja sisestab "roheline" siis konsool kuvab "oled looduse sõber"
             //kui kasutaja sisestab midagi muud siis konsool kuvab "oled ükssarvik"
             Console.WriteLine("mis on su lemmikvärv?");
-            string UserColor = Console.ReadLine();
+            string UserColor = Console.ReadLine().ToLower();
             if (UserColor == "punane")
             {
                 Console.WriteLine("oled romantiline");
